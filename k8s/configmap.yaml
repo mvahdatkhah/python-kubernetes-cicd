@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: node-app
+data:
+  ENV: "production"
+  HEALTH_PATH: "/health"
+  PORT: "8000"
