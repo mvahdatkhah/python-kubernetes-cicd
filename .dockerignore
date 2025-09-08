@@ -1,0 +1,20 @@
+# Node / Python dependencies
+node_modules
+dist
+build
+__pycache__/
+
+# Docker / CI artifacts
+.dockerconfigjson
+*.log
+
+# Environment variables
+.env
+.env.*.local
+
+# OS-specific / IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
